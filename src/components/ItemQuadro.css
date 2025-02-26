@@ -1,10 +1,29 @@
 li {
     border: solid 1px #000;
+    border-radius: 12px;
     padding: 12px;
-    margin: 12px;
     width: 100%;
-    box-sizing: border-box; /* Ensures padding and border are included in the width */
+    box-sizing: border-box;
+    margin-top: 16px;
     display: flex;
-    flex-direction: row;
-    align-items: start;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.botao-concluir, .botao-deletar {
+    border: none;
+    padding: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.botao-concluir {
+    background-color: #BDE038;
+}
+
+.botao-deletar {
+    background-color: #e63837;
 }
